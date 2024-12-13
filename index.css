@@ -66,7 +66,7 @@ body {
 }
 
 .container {
-    background: red;
+    /* background: red; */
     width: 97%;
     display: grid;
     grid-template-columns: 14rem auto 18rem;
@@ -143,7 +143,7 @@ b {
 
 aside {
     height: 100vh;
-    background: YELLOW;
+    /* background: YELLOW; */
 }
 
 aside .top {
@@ -182,7 +182,7 @@ aside h3 {
 }
 
 aside .sidebar a {
-    background: #41f1b6;
+    /* background: #41f1b6; */
     display: flex;
     color: var(--color-info-dark);
     margin: 0rem 1rem;
@@ -212,7 +212,7 @@ aside .sidebar a.active {
 
 /* ************** MAIN ************** */
 main {
-    background: greenyellow;
+    /* background: greenyellow; */
     margin-top: var(--app-margin-1);
 }
 
@@ -233,7 +233,7 @@ main .insights {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0.5rem;
-    background: violet;
+    /* background: violet; */
 }
 
 main .insights > div {
@@ -391,20 +391,20 @@ main .recent-orders a {
 /* ************** RIGTH ************** */
 .right {
     margin-right: 1rem;
-    background: blue;
+    /* background: blue; */
     margin-top: var(--app-margin-1);
 }
 
 .right .top {
+    /* background: gray; */
     display: flex;
     justify-content: end;
     gap: 2rem;
-    background: gray;
 }
 
-.right .top buttom {
+/* .right .top button {
     display: none;
-}
+} */
 
 .right .theme-toggler {
     background: var(--color-light);
@@ -468,7 +468,7 @@ main .recent-orders a {
 
 /* ************* SALES ANALYTICS ************ */
 .right .sales-analytics {
-    background: red;
+    /* background: red; */
     margin-top: 2rem;
 }
 
